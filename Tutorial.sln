@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SaveFrame", "examples\1.SaveFrame\SaveFrame.vcxproj", "{4225C234-A372-43C8-B1F9-C87A06F71260}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayVideo", "examples\2.PlayVideo\PlayVideo.vcxproj", "{452AFC98-3DDB-463A-97B6-E120CB48E31B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{4225C234-A372-43C8-B1F9-C87A06F71260}.Debug|x64.Build.0 = Debug|x64
 		{4225C234-A372-43C8-B1F9-C87A06F71260}.Release|x64.ActiveCfg = Release|x64
 		{4225C234-A372-43C8-B1F9-C87A06F71260}.Release|x64.Build.0 = Release|x64
+		{452AFC98-3DDB-463A-97B6-E120CB48E31B}.Debug|x64.ActiveCfg = Debug|x64
+		{452AFC98-3DDB-463A-97B6-E120CB48E31B}.Debug|x64.Build.0 = Debug|x64
+		{452AFC98-3DDB-463A-97B6-E120CB48E31B}.Release|x64.ActiveCfg = Release|x64
+		{452AFC98-3DDB-463A-97B6-E120CB48E31B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

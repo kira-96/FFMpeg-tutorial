@@ -6,6 +6,7 @@
 
 - Visual Studio 2019
 - [Download FFmpeg packages](https://ffmpeg.org/download.html#build-windows)
+- [Download SDL2](http://www.libsdl.org/download-2.0.php) 用于播放
 
 注意：
 
@@ -21,5 +22,13 @@
 |   bin  | examples/bin |
 | include | examples/include |
 |   lib  | examples/lib |
+
+解压缩你下载的 SDL2 二进制包，将一下文件（夹）复制到 `examples` 文件夹下。
+
+| 文件（夹）名称 | 目标文件夹 |
+| :-----------: | :-------: |
+|    include   | examples/include/libsdl |
+| lib/x64/SDL2.dll | examples/bin/SDL2.dll |
+|    lib/x64   | examples/lib |
 
 编译生成的可执行程序放在 `examples/bin` 文件夹下。
